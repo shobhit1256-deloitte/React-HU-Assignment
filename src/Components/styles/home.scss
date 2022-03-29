@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+}
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.hero {
+  margin-top: 1rem;
+
+}
+.hero__heading {
+  width: 100%;
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  font-weight: bolder;
+  margin-left: 4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.hero__text {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 0.75px;
+    font-weight: bolder;
+    margin-left: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+.hero__image {
+  width:80%;
+
+}
+
+
