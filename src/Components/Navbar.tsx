@@ -24,6 +24,7 @@ export default function ButtonAppBar() {
           </Typography>
           <Typography component="div" sx={{ flexGrow: .1 }}><Link to="/about-us" style={{ textDecoration: 'none',color:'white' }}>About Us</Link></Typography>
           <Typography><Link to="/contact-us" style={{ textDecoration: 'none',color:'white' }}>Contact Us</Link></Typography>
+          <Typography  sx={{ flexGrow: .1 }}><Link to="/apiIntegration" style={{ textDecoration: 'none',color:'white' }}>Mock API</Link></Typography>
         </Toolbar>
       </AppBar>
     </Box>

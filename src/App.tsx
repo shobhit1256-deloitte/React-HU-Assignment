@@ -14,6 +14,7 @@ import AboutUs from './Components/AboutUs';
 import ContactUs from './Components/ContactUs';
 import PageNotFound from './Components/PageNotFound';
 import ContactUsForm from './Components/ContactUsForm';
+import MockApi from './Components/MockApi';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/about-us" element={<AboutUs />}/>
           <Route path="/contact-us" element={<ContactUs />}/>
+          <Route path="/apiIntegration" element={<MockApi />}/>
           <Route path="*" element={<PageNotFound />}/>
         </Routes>
       </Router>
